@@ -7,7 +7,7 @@ The repository requires users to define genome dataset, run antiSMASH and BiGSCA
 
 ### Data directories used in this analysis
 
-Followin data structure was used to store the data and we recommend the users to follow similar data structure or adapt the notebooks accordingly.
+Following data directory structure was used to store the data and we recommend the users to follow similar data structure or adapt the notebooks accordingly.
 
     1. ../data/antismash_out : Output folders for all genomes in analysis also used as input for BiGSCAPE software. This is not included in the Github directory, and users can adapt this locally. We use this data only to extract amino acid specificity in this analysis, which part should be adapted accordingly.
     2. ../data/bigscape : Output of BiGSCAPE dataset, which will be used to create network and detect families
